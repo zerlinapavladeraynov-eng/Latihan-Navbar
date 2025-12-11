@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Latihan Navbar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+	<div class="logo"> <!-- menambahkan logo --!> 
+	zp
+	</div>
+	
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="index.html">Profile</a></li>
+<li><a href="#">Certificate</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="datakunjungan.html">Buku Tamu</a></li>
+
+</ul>
+</nav>
+
+	<style>
+		.content {
+			display: flex;
+			justify-content: center;
+			padding-top: 100px;
+			padding-buttom: 40px;
+			gap: 20px;
+			flex-wrap: wrap;
+			flex-wrap: wrap;
+		}
+		.card {
+			border: 1px solid #ddd;
+			width: 250px;
+			border-radius: 10px;
+			text-align: center;
+			box-shadow: 0 2px rgba( 0, 0, 0, 0.1);
+			overflow: hidden;
+			padding: 20px;
+			margin-left: 20px;
+		}
+		.card-img {
+			widht: 80%;
+			height: 150px;
+			object-fit: cover;
+		}
+		
+		.card-title { 
+			font-size: 18;
+			margin: 10px 0 5px;
+		}
+		
+		.card-subtitle { 
+			font-size: 15;
+			margin: 10px 0 5px;
+			padding: 0 10px;
+		}
+		
+		.card-btn {
+			background-color:#F0FFFF;
+			color: grey;
+			border: none;
+			border-radius: 5px;
+			padding: 10 px 15px;
+			cursor: pointer;
+		}
+		
+		.card:hover {
+			background-color: #FFF8DC;
+			color: grey;
+			transform: transLateY(-5px);
+			box-shadow: 0 15px 40px rgba(0 , 0, 0, 0.2);
+		}
+	</style>
+</head>
+<body>
+<center>
+Data Kunjangan 
+</center>
+<div class="content">
+    <div class="card">
+		<img src="img/satu.jpg" class="card-img">
+		<h3 class="card-title">Zerlina Pavla De Raynov</h3>
+		<p class="card-subtitle">Progremmer | WEB DEVELOPER | CEO</p>
+		<button class="card-btn">
+			see profile
+		</button>
+	</div>
+	
+ <div class="card">
+		<img src="img/empat.jpeg" class="card-img">
+		<h3 class="card-title">Rasyaki Pavlinka De Raynov</h3>
+		<p class="card-subtitle">Progremmer | UI/UX | CEO</p>
+		<button class="card-btn">
+			see profile
+		</button>
+	</div>
+	
+ <div class="card">
+		<img src="img/lima.jpeg" class="card-img">
+		<h3 class="card-title">Ameera Syalia Sarabiti</h3>
+		<p class="card-subtitle">Progremmer | SOFTWHERE ENGGINER | CEO</p>
+		<button class="card-btn">
+			see profile
+		</button>
+	</div>
+</div>
+</body>
+</html>
